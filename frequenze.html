@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Musica Medicinale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7ae68af97.js"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+
+
+
+  <body class="container-fluid"> <!--container-fluid serve affinché la pagina sia visualizzata bene su diversi device-->
+    
+    <!--menù di navigazione-->
+    <header class="fixed-top">
+      <div>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html"> 
+            <img src="img/MMlogo.png" width="70" height="50" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" style="color:white"></i>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a> <!--active lo metteremo solo al li della pagina stessa, come in questo caso su home-->
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active home-link" href="sezioni.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Esplora</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="intro.html">Musica curativa</a>
+                  <a class="dropdown-item" href="benefici.html">Benefici della musica sulla salute</a>
+                  <a class="dropdown-item" href="terapie.html">Generi musicali e terapie specifiche</a>
+                  <a class="dropdown-item" href="frequenze.html">Frequenze e ritmi benefici</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="studi.html">Studi e ricerche<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="risorse.html">Risorse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="eventi.html">Eventi</a>
+              </li>              
+            </ul>
+            <ul class="navbar-nav ml-auto"> <!-- Aggiunto ml-auto per spostare a destra -->
+              <li class="nav-item">
+                  <a class="nav-link" href="https://www.instagram.com/musicamedicinale?igsh=MXZibXBlMHpxYmoxeA%3D%3D&utm_source=qr" target="blank">
+                      <i class="fab fa-instagram fa-lg" style="color: white;"></i>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://www.facebook.com/musica.medicinale" target="blank">
+                      <i class="fab fa-facebook fa-lg" style="color: white;"></i>
+                  </a>
+              </li>
+          </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--fine menù di navigazione-->
+
+    <main>  
+      <div class="album py-5 bg-light">        
+        <div class="container">
+        <section class="jumbotron text-center">
+          <div class="container">
+            <h1 class="jumbotron-heading">Frequenze benefiche</h1>
+            <p class="lead text-muted">La musica ha il potere di influenzare le onde cerebrali attraverso l'uso di diverse frequenze. Alcune frequenze sono associate a specifici stati mentali e possono avere benefici sulla salute. </p>
+          </div>
+        </section> 
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="img/f1.jpg" alt="Immagine" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Frequenza associata al sonno profondo e al rilassamento totale.</p>
+                  <p>Musica con frequenze delta può essere utilizzata per favorire il sonno profondo e la rigenerazione fisica.</p>
+                  <div class="d-flex justify-content-between align-items-center"></div>
+                </div>
+              </div>
+            </div>
+            
+
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="img/f2.jpg" alt="Immagine" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Associata allo stato di rilassamento profondo, meditazione e creatività.</p>
+                  <p>Musica theta può essere utilizzata per facilitare la meditazione e migliorare la concentrazione.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img src="img/f3.jpg" alt="Immagine" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Frequenza correlata a uno stato di rilassamento leggero e di calma.</p>
+                  <p>Musica alpha può essere utilizzata per ridurre lo stress e promuovere uno stato di benessere.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <img src="img/f4.jpg" alt="Immagine" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Frequenza associata allo stato di attività mentale e di concentrazione.</p>
+                  <p>Musica beta può essere utilizzata per aumentare l'energia mentale e la vigilanza.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <img src="img/f5.jpg" alt="Immagine" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Frequenza correlata a uno stato di attività cerebrale superiore, intuizione e apprendimento.</p>
+                  <p>Musica gamma può essere utilizzata per stimolare la mente e favorire la creatività.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album py-5 bg-light">        
+        <div class="container">
+        <section class="jumbotron text-center">
+          <div class="container">
+            <h1 class="jumbotron-heading">Ritmi benefici</h1>
+            <p class="lead text-muted">I ritmi musicali possono anche influenzare la mente e il corpo.</p>
+          </div>
+        </section> 
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <img src="img/f6.jpg" alt="Immagine" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">L'utilizzo di due frequenze leggermente diverse inviate a ciascun orecchio può influenzare le onde cerebrali.</p>
+                  <p>Questa tecnica è spesso utilizzata per induurre stati meditativi profondi e migliorare la concentrazione.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <img src="img/f7.jpg" alt="Immagine" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Ritmi regolari e ripetitivi che possono sincronizzare il cervello con il ritmo della musica.</p>
+                  <p>Possono essere utilizzati per aumentare l'energia, migliorare la concentrazione o alleviare lo stress.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <img src="img/f8.jpg" alt="Immagine" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Musica con un ritmo simile al battito cardiaco può avere effetti rilassanti sul sistema nervoso.</p>
+                  <p>Può contribuire a ridurre la frequenza cardiaca e la pressione sanguigna.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card mb-4 shadow-sm">
+                <img src="img/f9.jpg" alt="Immagine" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">Ritmi tradizionali provenienti da culture tribali possono essere utilizzati per facilitare esperienze di guarigione e connessione spirituale.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <p class="lead text-muted">Aggiungi playlist tematiche e consigli di ascolto</p>
+        </div>
+      </section>
+    </main>
+
+    <!--footer--> 
+    <div class="container">
+      <footer class="py-5">
+        <div class="row justify-content-center">
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Iscriviti alla nostra newsletter</h5>
+              <p>Riepilogo giornaliero di novità e notizie da parte nostra.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"></label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                <div class="btn-group">
+                  <a href="intro.html" class="btn btn-sm" style="background-color: #B5A391; color: #ffffff;">Iscriviti</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-center border-top">
+          <p>Copyright © 2024 Alexandra Slivca. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a href="doc.html">Documentazione</a>
+            </li>  
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <!--fine footer-->
+  </body>
+</html>
